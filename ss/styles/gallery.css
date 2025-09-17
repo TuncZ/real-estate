@@ -1,0 +1,139 @@
+body {
+    background-color: #f1faf5;
+  }
+  .gallery {
+    background-color: #082c2c;
+    align-items: flex-start;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+   
+    z-index: 1;
+  }
+  .gallery {
+    width: 100%;
+}
+
+.gallery-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    margin-right: 10px;
+    max-width: 100%; /* Resmin maksimum genişliği belirlendi */
+}body {
+  background-color: #f1faf5;
+}
+.gallery {
+  background-color: #082c2c;
+  align-items: flex-start;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+ 
+  z-index: 1;
+}
+.gallery-item {
+  padding: 15px;
+}
+.slider {
+  width: 90%;
+  margin: auto;
+}
+
+.slick-prev, .slick-next {
+  font-size: 24px;
+}
+.gallery-item > img {
+  width: 100%;
+  height: 200px;
+  object-fit: fill;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.pic1 {
+  height: 100% !important;
+}body {
+  background-color: #f1faf5;
+}
+.gallery {
+  background-color: #082c2c;
+  align-items: flex-start;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+ 
+  z-index: 1;
+}
+.gallery-item {
+  padding: 15px;
+}
+.slider {
+  width: 90%;
+  margin: auto;
+}
+
+.slick-prev, .slick-next {
+  font-size: 24px;
+}
+.gallery-item > img {
+  width: 100%;
+  height: 200px;
+  object-fit: fill;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.pic1 {
+  height: 100% !important;
+}
+
+.gallery-item img {
+    width: 100%; 
+    height: auto;
+    max-height: 200px; 
+}
+   
+    
+  
+  
+  .slick-prev, .slick-next {
+    font-size: 24px;
+  }
+  .gallery-item > img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .pic1 {
+    height: 100% !important;
+  }
